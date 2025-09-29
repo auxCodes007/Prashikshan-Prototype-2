@@ -65,7 +65,7 @@ const StudentDashboard = () => {
                 <DailyLogbook />
               </div>
               <div className="space-y-8">
-                <NEPCredits />
+              
                 <ActivityFeed />
                 <NotificationsWidget />
               </div>
