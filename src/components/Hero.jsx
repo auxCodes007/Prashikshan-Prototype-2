@@ -90,11 +90,11 @@ const Hero = () => {
               <motion.button
                 onClick={handleGetStarted}
                 className="btn-primary text-base px-8 py-4 group shadow-lg"
-                whileHover={{ scale: 1.05 }}
+                whileHover={{ scale: 1.05}}
                 whileTap={{ scale: 0.95 }}
               >
                 Get Started
-                <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+          
               </motion.button>
               
               <motion.div

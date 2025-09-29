@@ -193,7 +193,7 @@ const HowItWorks = () => {
               whileTap={{ scale: 0.95 }}
             >
               Choose Your Role
-              <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+          
             </motion.button>
           </div>
         </motion.div>
