@@ -89,7 +89,7 @@ const PerformanceAnalytics = () => {
             <div className="w-full bg-gray-200 rounded-full h-2">
               <div
                 className="bg-gradient-to-r from-primary-400 to-primary-600 h-2 rounded-full"
-                style={{ width: `${(performance.overallGPA / 4) * 100}%` }}
+                style={{ width: `${(performance.overallGPA / 10) * 100}%` }}
               />
             </div>
             <div className="flex justify-between text-xs text-gray-500">
