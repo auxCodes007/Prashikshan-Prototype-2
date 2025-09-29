@@ -138,7 +138,7 @@ const StudentDashboard = () => {
         <footer className="border-t border-gray-200 bg-white px-6 py-4">
           <div className="flex items-center justify-between text-sm text-gray-600">
             <div>
-              © 2024 Prashikshan. All rights reserved.
+              © 2025 Prashikshan. All rights reserved.
             </div>
             <div className="flex items-center space-x-4">
               <button className="hover:text-primary-600 transition-colors">Help</button>

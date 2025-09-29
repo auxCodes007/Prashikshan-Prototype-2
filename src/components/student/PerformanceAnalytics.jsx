@@ -67,15 +67,15 @@ const PerformanceAnalytics = () => {
                 <Award size={24} className="text-primary-600" />
               </div>
               <div>
-                <h3 className="font-semibold text-gray-900">Overall GPA</h3>
+                <h3 className="font-semibold text-gray-900">Overall CGPA</h3>
                 <p className="text-sm text-gray-600">Current semester</p>
               </div>
             </div>
             <div className="text-right">
-              <div className="text-2xl font-bold text-gray-900">{performance.overallGPA}</div>
+              <div className="text-2xl font-bold text-gray-900">9.1</div>
               <div className="text-xs text-green-600 flex items-center space-x-1">
                 <TrendingUp size={12} />
-                <span>+0.2 from last semester</span>
+                <span>+0.25 from last semester</span>
               </div>
             </div>
           </div>
@@ -89,12 +89,12 @@ const PerformanceAnalytics = () => {
             <div className="w-full bg-gray-200 rounded-full h-2">
               <div
                 className="bg-gradient-to-r from-primary-400 to-primary-600 h-2 rounded-full"
-                style={{ width: `${(performance.overallGPA / 10) * 100}%` }}
+                style={{ width: `${(performance.overallGPA / 4.2) * 100}%` }}
               />
             </div>
             <div className="flex justify-between text-xs text-gray-500">
               <span>0.0</span>
-              <span>4.0</span>
+              <span>10.0</span>
             </div>
           </div>
         </motion.div>
