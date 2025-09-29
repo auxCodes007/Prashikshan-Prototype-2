@@ -44,8 +44,8 @@ const Industry = () => {
                     <div className="flex items-center space-x-3">
                         <img src="https://i.pravatar.cc/40?u=company" alt="Company Logo" className="w-10 h-10 rounded-full" />
                         <div>
-                        <p className="font-semibold text-[#0F172A]">[Company Name]</p>
-                        <p className="text-sm text-[#6B7280]">Industry Sector</p>
+                        <p className="font-semibold text-[#0F172A]">Tech Corp</p>
+                        <p className="text-sm text-[#6B7280]">Finance</p>
                         </div>
                     </div>
                     </div>
@@ -68,8 +68,8 @@ const Dashboard = () => {
           <div className="lg:col-span-3 bg-white rounded-xl shadow-[0_4px_12px_rgba(0,0,0,0.05)] p-6 transition-all duration-300 hover:shadow-[0_8px_24px_rgba(0,0,0,0.1)]">
             <div className="flex justify-between items-start">
               <div>
-                <h2 className="text-2xl font-bold text-[#0F172A]">Welcome back, [Company Name]!</h2>
-                <p className="text-[#6B7280]">Leading in [Industry Sector]</p>
+                <h2 className="text-2xl font-bold text-[#0F172A]">Welcome back, Tech Corp!</h2>
+                <p className="text-[#6B7280]">Leading in Finance</p>
               </div>
               <button className="bg-[#0EA5A4] text-white px-4 py-2 rounded-lg hover:bg-[#06B6D4] transition-colors">Edit Profile</button>
             </div>
