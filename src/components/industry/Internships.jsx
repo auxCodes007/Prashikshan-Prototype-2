@@ -8,5 +8,4 @@ const Internships = () => {
     </div>
   );
 };
-
 export default Internships;
