@@ -143,6 +143,9 @@ const Navbar = () => {
                 </>
               )}
             </div>
+            <div className="translate-widget">
+  <div id="google_translate_element"></div>
+</div>
 
             {/* Mobile Menu Button */}
             <div className="lg:hidden">

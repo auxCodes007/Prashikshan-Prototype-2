@@ -40,4 +40,24 @@
   .modal-content {
     @apply bg-white rounded-2xl shadow-2xl max-w-md w-full max-h-screen overflow-y-auto;
   }
+  .translate-widget {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  background: white;
+  border-radius: 10px;
+  padding: 6px 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+.goog-te-gadget {
+  font-family: 'Inter', sans-serif !important;
+  color: #0EA5A4 !important;
+}
+.goog-te-combo {
+  border-radius: 8px;
+  padding: 4px;
+  border: 1px solid #ccc;
+}
+
 }
