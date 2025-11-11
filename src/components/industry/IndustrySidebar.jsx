@@ -1,7 +1,7 @@
 import React from 'react';
-import { Briefcase, BarChart2, Users, FileText, GitPullRequest, LogOut, Building } from 'lucide-react';
+import { Briefcase, BarChart2, Users, FileText, GitPullRequest, LogOut, Building, User } from 'lucide-react';  // Added User for profile
 
-const IndustrySidebar = ({ activeItem, setActiveItem }) => {
+const IndustrySidebar = ({ activeItem, setActiveItem, userProfile, setShowProfile }) => {
   const menuItems = [
     { id: 'dashboard', name: 'Dashboard', icon: BarChart2 },
     { id: 'internships', name: 'Internships', icon: Briefcase },
@@ -9,6 +9,10 @@ const IndustrySidebar = ({ activeItem, setActiveItem }) => {
     { id: 'reports', name: 'Reports', icon: FileText },
     { id: 'partnerships', name: 'Partnerships', icon: GitPullRequest },
   ];
+
+  const handleLogout = () => {
+    alert('Logged out!');
+  };
 
   return (
     <div className="bg-white w-64 min-h-screen p-4 flex flex-col justify-between shadow-lg">
@@ -36,7 +40,11 @@ const IndustrySidebar = ({ activeItem, setActiveItem }) => {
         </ul>
       </div>
       <div>
-        <button className="w-full flex items-center space-x-3 p-3 rounded-lg transition-colors text-[#6B7280] hover:bg-red-50 hover:text-red-600">
+        <button onClick={() => setShowProfile(true)} className="w-full flex items-center space-x-3 p-3 rounded-lg transition-colors text-[#6B7280] hover:bg-gray-100">
+          <User className="w-6 h-6" />
+          <span className="font-semibold">Profile</span>
+        </button>
+        <button onClick={handleLogout} className="w-full flex items-center space-x-3 p-3 rounded-lg transition-colors text-[#6B7280] hover:bg-red-50 hover:text-red-600">
           <LogOut className="w-6 h-6" />
           <span className="font-semibold">Logout</span>
         </button>
